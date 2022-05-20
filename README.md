@@ -7,16 +7,18 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-# API, Backend site d'annonce 
-## Routes
-### Les annonces 
+
+# API est hébergée sur heroku
+> ## voici l'Url de ase https://apisiteannonce.herokuapp.com/ 
+### Routes
+#### Les annonces 
  - **GET**      api/annonces                        => liste des annonces 
  - **POST**     api/addannonces                     => ajout d'annonces
  - **PUT**      api/updateannonces/{id}             => mise à jour d'annonces
  - **DELETE**   api/deleteannonces/{id}             => suppréssion d'annonces
  - **GET**      api/showannonces/{id}               => afficher une annonce 
  - **GET**      api/searchannonces/{titre}          => rechercher une annonce à partitre de son titre
- ### Les commentaires
+ #### Les commentaires
  - **GET**      api/commentaires                    => liste des commentaires
  - **POST**     api/addcommentaires                 => ajouter un commentaire
  - **PUT**      api/updatecommentaires/{id}         => mise à jour dun commentaire
